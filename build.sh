@@ -1,6 +1,9 @@
 #!/bin/bash -x
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright Friedrich Beckmann, 2026
 
-export PREFIX=/home/caeuser/inst
+# This one overwrites the default settings in the tools
+#export PREFIX=/home/caeuser/inst
 
 ./build_ghdl.sh
 ./build_yosys.sh

@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright Friedrich Beckmann, 2026
 
 # ghdl
 sudo apt -y install gnat llvm
