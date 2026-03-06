@@ -7,7 +7,7 @@ These build scripts build and install the tha vlsi tools
   * YoSys ghdl plugin
   * OpenROAD
 
-The versions are derived from the [https://github.com/iic-jku/IIC-OSIC-TOOLS/tree/main|IIC-OSIC-TOOLS] curated by Harald Prettl.
+The versions are derived from the [IIC-OSIC-TOOLS](https://github.com/iic-jku/IIC-OSIC-TOOLS/tree/main) curated by Harald Prettl.
 
 ### How to
 
