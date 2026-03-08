@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Copyright Friedrich Beckmann, 2026
 
-${PREFIX:=/home/caeuser/install}
+: ${PREFIX:=/home/caeuser/install}
 
 # see: https://github.com/iic-jku/IIC-OSIC-TOOLS/blob/main/_build/images/ghdl/Dockerfile
 

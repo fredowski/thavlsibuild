@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Copyright Friedrich Beckmann, 2026
 
-${PREFIX:=/home/caeuser/install}
+: ${PREFIX:=/home/caeuser/install}
 
 VERSION=0.62
 

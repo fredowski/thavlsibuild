@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Copyright Friedrich Beckmann, 2026
 
-${PREFIX:=/home/caeuser/install}
+: ${PREFIX:=/home/caeuser/install}
 
 GHDLYOSYSPLUGINCOMMIT=07a30ed39fb6a078f1bf7e9e88ce9ed712380ec2
 
