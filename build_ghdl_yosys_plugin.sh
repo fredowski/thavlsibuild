@@ -4,6 +4,10 @@
 
 : ${PREFIX:=/home/caeuser/install}
 
+# Yosys is supposed to be installed in PREFIX...
+# We need to be able to find yosys-config
+PATH=$PREFIX/bin:$PATH
+
 GHDLYOSYSPLUGINCOMMIT=07a30ed39fb6a078f1bf7e9e88ce9ed712380ec2
 
 # ghdl-yosys-plugin
