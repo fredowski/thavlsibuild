@@ -6,6 +6,9 @@
 
 VERSION=0.62
 
+# Add uv to PATH
+PATH=/home/caeuser/.local/bin:$PATH
+
 # yosys
 mkdir -p ./yosys
 cd yosys
