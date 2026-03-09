@@ -7,6 +7,7 @@ These build scripts build and install the tha vlsi tools
   * YoSys ghdl plugin
   * YoSys slang plugin (System Verilog)
   * OpenROAD
+  * KLayout
 
 The versions are derived from the [IIC-OSIC-TOOLS](https://github.com/iic-jku/IIC-OSIC-TOOLS/tree/main) curated by Harald Prettl.
 
