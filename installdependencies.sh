@@ -43,7 +43,7 @@ sudo dpkg -i baz.deb
 rm baz.deb
 
 ## Some xcb and friends libraries on aarch64
-sudo apt -y install libX11-dev libice-dev libxcb-cursor-dev libxcb-iccm4-dev \
+sudo apt -y install libx11-dev libice-dev libxcb-cursor-dev libxcb-icccm4-dev \
 	libxcb-render0-dev libxcb-render-util0-dev
 
 # klayout
