@@ -13,6 +13,7 @@
 ./build_ghdl_yosys_plugin.sh
 ./build_slang_yosys_plugin.sh
 ./build_openroad.sh
+./build_klayout.sh
 
 
 
