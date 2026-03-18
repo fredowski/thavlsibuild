@@ -8,7 +8,7 @@ sudo apt -y install gnat llvm
 # yosys
 sudo apt -y install gawk git make python3 lld bison clang flex \
 	libffi-dev libfl-dev libreadline-dev pkg-config tcl-dev zlib1g-dev \
-	graphviz xdot time
+	graphviz xdot time cmake
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # openroad
@@ -44,7 +44,20 @@ rm baz.deb
 
 ## Some xcb and friends libraries on aarch64
 sudo apt -y install libx11-dev libice-dev libxcb-cursor-dev libxcb-icccm4-dev \
-	libxcb-render0-dev libxcb-render-util0-dev
+	libxcb-render0-dev libxcb-render-util0-dev \
+	libx11-xcb-dev \
+	libsm-dev \
+	libxcb-keysyms1-dev \
+	libxcb-shape0-dev \
+	libxcb-sync-dev \
+	libxcb-util-dev \
+	libxcb-xfixes0-dev \
+	libxcb-xkb-dev \
+	libdbus-1-dev \
+	libfontconfig-dev \
+	libxkbcommon-dev \
+	libxkbcommon-x11-dev \
+	libxcb-randr0-dev
 
 # klayout
 sudo apt -y install \
@@ -58,4 +71,5 @@ sudo apt -y install \
 	qt6-multimedia-dev \
 	qt6-svg-dev \
 	qt6-5compat-dev \
-	libgit2-dev
+	libgit2-dev \
+	libpython3-dev
