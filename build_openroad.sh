@@ -14,6 +14,7 @@ fi
 
 cd OpenROAD
 git checkout ${OPENROADCOMMIT}
+git submodule update
 bazelisk build --//:platform=gui //:openroad 
 
 # Hack until PR https://github.com/The-OpenROAD-Project/OpenROAD/pull/9656 is merged

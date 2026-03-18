@@ -16,6 +16,7 @@ if [ ! -d yosys-slang ]; then
 fi
 cd yosys-slang
 git checkout ${SLANGYOSYSPLUGINCOMMIT}
+git submodule update
 make -j 8
 
 mkdir -p "${PREFIX}/share/yosys/plugins"
