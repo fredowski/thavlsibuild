@@ -3,7 +3,7 @@
 # Copyright Friedrich Beckmann, 2026
 
 # ghdl
-sudo apt -y install gnat llvm
+sudo apt -y install gnat llvm libboost-dev
 
 # yosys
 sudo apt -y install gawk git make python3 lld bison clang flex \
